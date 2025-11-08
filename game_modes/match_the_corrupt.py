@@ -72,7 +72,7 @@ def match_the_corrupt(money):
         display_grid(paired_cards, show_cards=[True]*total_cards, rows=rows, cols=cols)
         time.sleep(level["memorize_time"])  # increased per level
 
-        # 2. Flip all to hidden
+        # flip (hidden)
         clear_console()
         print(f"Level {level_idx}: Cards are hidden! Match the pairs.")
         show_flags = [False] * total_cards
