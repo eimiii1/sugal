@@ -1,7 +1,7 @@
 import random
 import os
 import time
-from cards import cards  # your cards list
+from cards import cards
 
 HIDDEN_CARD = """
 #:.....  ...  .     . . ...:#
